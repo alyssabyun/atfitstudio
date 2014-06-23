@@ -69,3 +69,35 @@ textarea {
     background-color: #ffffff !important;
     border-color: #ffffff !important;
 }
+
+header,
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    background-color: #2D3235;
+    color: #f3f5f5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dadfe1;
+}
+
+.background-light-gray {
+    background-color: #f6f7f8;
+}
+
+.jesus-is-the-lord {
+    padding: 40px 0;
+}
+
+.one-way-jesus {
+    padding-bottom: 40px;
+}
+
+
+/*Home Page*/
+.home-page .item {
+    height: 500px;
+}
