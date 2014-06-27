@@ -30,3 +30,6 @@ C:\Development\Atfit\Atfit\bin\System.Web.WebPages.Razor.xml
 C:\Development\Atfit\Atfit\obj\Debug\Atfit.csprojResolveAssemblyReference.cache
 C:\Development\Atfit\Atfit\obj\Debug\Atfit.dll
 C:\Development\Atfit\Atfit\obj\Debug\Atfit.pdb
+C:\Development\Atfit\Atfit\bin\CsQuery.dll
+C:\Development\Atfit\Atfit\bin\PreMailer.Net.dll
+C:\Development\Atfit\Atfit\bin\CsQuery.xml

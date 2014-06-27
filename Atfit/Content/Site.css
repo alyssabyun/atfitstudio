@@ -97,6 +97,23 @@ footer {
 }
 
 
+/*Menu*/
+.height70 {
+    height: 70px;
+}
+
+.navbar .navbar-brand {
+    padding: 0;
+}
+
+.navbar .navbar-brand img{
+    width: 150px;
+}
+
+.navbar ul {
+    padding-top: 20px;
+}
+
 /*Home Page*/
 .home-page .item {
     height: 500px;

@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <nav id="navbar-example" class="navbar navbar-default navbar-static" role="navigation">
-                <div class="container-fluid">
+                <div class="container-fluid height70">
                     <div class="navbar-header">
                         <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
@@ -20,7 +20,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"></a>
+                        <a class="navbar-brand" href="/"><img src ="@Url.Content("~/Content/images/2.jpg")" /></a>
                     </div>
                     <div class="navbar-collapse bs-example-js-navbar-collapse collapse" style="height: 1px;">
                         <ul class="nav navbar-nav">
@@ -38,6 +38,9 @@
                             </li>
                             <li>
                                 <a href="#" role="button">CONTACT US</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "FAQ")" role="button">FAQ</a>
                             </li>
                         </ul>
                     </div><!-- /.nav-collapse -->
