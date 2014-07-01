@@ -4,6 +4,7 @@
 
 <div class="container">
     <h2>Frequently Asked Questions</h2>
+    <hr />
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -258,3 +259,13 @@
         </div>
     </div>
 </div>
+
+
+@section scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#faq-menu').addClass('active');
+        });
+    </script>
+}
