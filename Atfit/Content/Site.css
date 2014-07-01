@@ -76,6 +76,14 @@ footer,
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.container {
+    font-size: 18px;
+}
+
+footer .container {
+    font-size: 15px;
+}
+
 footer {
     background-color: #2D3235;
     color: #f3f5f5;
@@ -102,6 +110,10 @@ footer {
     text-align: center;
 }
 
+.float-right {
+    float: right !important;
+}
+
 /*Menu*/
 .navbar .navbar-brand img{
     width: 150px;
@@ -126,6 +138,16 @@ footer {
 /*Home Page*/
 .home-page .item {
     height: 500px;
+}
+
+/*Staff*/
+
+.training-team {
+    text-align: center;
+}
+
+.training-team img {
+    width: 100%;
 }
 
 /*Contact Us*/
