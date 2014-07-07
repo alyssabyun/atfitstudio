@@ -144,11 +144,12 @@ footer {
 
 .training-team {
     text-align: center;
+    background-image: url("/Content/images/team.png");
+    background-attachment: fixed;
+    height: 400px;
+    background-size: 100%;
 }
 
-.training-team img {
-    width: 100%;
-}
 
 /*Contact Us*/
 .google-map iframe {
