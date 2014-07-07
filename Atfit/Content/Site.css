@@ -148,7 +148,15 @@ footer {
     background-attachment: fixed;
     height: 400px;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 90px;
 }
+
+.staff-page .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 
 
 /*Contact Us*/
@@ -171,6 +179,11 @@ footer {
     float: right;
 }
 
+@media(max-width: 991px) {
+    .staff-page .float-right {
+        float: none !important;
+    }
+}
 
 @media(max-width: 767px) {
     .navbar .navbar-brand img {

@@ -151,9 +151,13 @@
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\img04.jpg" />
+    <Content Include="Content\images\img04.png" />
+    <Content Include="Content\images\p1.jpg" />
     <Content Include="Content\images\sample-pic1.jpg" />
     <Content Include="Content\images\sample-pic2.jpg" />
     <Content Include="Content\images\sample-pic3.jpg" />
+    <Content Include="Content\images\team.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

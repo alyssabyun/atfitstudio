@@ -76,6 +76,14 @@ footer,
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.container {
+    font-size: 18px;
+}
+
+footer .container {
+    font-size: 15px;
+}
+
 footer {
     background-color: #2D3235;
     color: #f3f5f5;
@@ -102,6 +110,10 @@ footer {
     text-align: center;
 }
 
+.float-right {
+    float: right !important;
+}
+
 /*Menu*/
 .navbar .navbar-brand img{
     width: 150px;
@@ -115,11 +127,37 @@ footer {
     padding: 0;
 }
 
+.navbar-default .navbar-nav > .active > a {
+    color: #333333 !important;
+    background: none !important;
+    box-shadow: none !important;
+    text-decoration: overline;
+}
+
 
 /*Home Page*/
 .home-page .item {
     height: 500px;
 }
+
+/*Staff*/
+
+.training-team {
+    text-align: center;
+    background-image: url("/Content/images/team.png");
+    background-attachment: fixed;
+    height: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 90px;
+}
+
+.staff-page .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
 
 /*Contact Us*/
 .google-map iframe {
@@ -136,6 +174,16 @@ footer {
     padding: 5px 0;
 }
 
+.send-button {
+    margin-bottom: 25px;
+    float: right;
+}
+
+@media(max-width: 991px) {
+    .staff-page .float-right {
+        float: none !important;
+    }
+}
 
 @media(max-width: 767px) {
     .navbar .navbar-brand img {
