@@ -151,6 +151,8 @@
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\4.png" />
+    <Content Include="Content\images\5.jpg" />
     <Content Include="Content\images\img04.jpg" />
     <Content Include="Content\images\img04.png" />
     <Content Include="Content\images\p1.jpg" />
@@ -250,7 +252,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Homepage.cshtml" />
     <Content Include="Views\ContactUs\Index.cshtml" />
     <Content Include="Views\FAQ\Index.cshtml" />
     <Content Include="Views\AboutUs\Index.cshtml" />
@@ -258,6 +260,8 @@
     <Content Include="Views\Staff\Index.cshtml" />
     <Content Include="Views\Facility\Index.cshtml" />
     <Content Include="Views\Programme\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

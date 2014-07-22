@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+@{
+    Layout = null;
+}
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@@FIT</title>
+    @Styles.Render("~/Content/css")
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container">
+
+        
+        <div class="about-us-box">
+            <a href="@Url.Action("Index","AboutUs")" class="alyssa-box">
+                ABOUT US
+            </a>
+        </div>
+        <a href="@Url.Action("Index","Staff")" class="alyssa-box">
+            <div>
+                STAFF
+            </div>
+        </a>
+
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+</body>
+</html>
