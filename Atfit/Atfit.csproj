@@ -42,6 +42,12 @@
     <Reference Include="CsQuery">
       <HintPath>..\packages\CsQuery.1.3.4\lib\net40\CsQuery.dll</HintPath>
     </Reference>
+    <Reference Include="Elmah">
+      <HintPath>..\packages\elmah.corelibrary.1.2.1\lib\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="Elmah.Mvc">
+      <HintPath>..\packages\Elmah.MVC.2.1.1\lib\net40\Elmah.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="PreMailer.Net">
       <HintPath>..\packages\PreMailer.Net.1.2.6\lib\net40\PreMailer.Net.dll</HintPath>
@@ -138,11 +144,13 @@
     <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProgrammeController.cs" />
+    <Compile Include="Controllers\ReferController.cs" />
     <Compile Include="Controllers\StaffController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\EmailModel.cs" />
+    <Compile Include="Models\ReferFriendModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ConfigService.cs" />
     <Compile Include="Services\EmailService.cs" />
@@ -151,15 +159,24 @@
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\4.jpg" />
     <Content Include="Content\images\4.png" />
     <Content Include="Content\images\5.jpg" />
-    <Content Include="Content\images\img04.jpg" />
+    <Content Include="Content\images\aboutus1.jpg" />
+    <Content Include="Content\images\aboutus2.jpg" />
+    <Content Include="Content\images\aboutus3.jpg" />
+    <Content Include="Content\images\aboutus4.jpg" />
+    <Content Include="Content\images\card.jpg" />
+    <Content Include="Content\images\facility1.JPG" />
+    <Content Include="Content\images\facility2.jpg" />
+    <Content Include="Content\images\facility3.jpg" />
+    <Content Include="Content\images\facility4.jpg" />
+    <Content Include="Content\images\facility5.jpg" />
+    <Content Include="Content\images\girls.jpg" />
     <Content Include="Content\images\img04.png" />
+    <Content Include="Content\images\man-muscle-body-dumbbell-Fitness.jpg" />
+    <Content Include="Content\images\maxresdefault.jpg" />
     <Content Include="Content\images\p1.jpg" />
-    <Content Include="Content\images\sample-pic1.jpg" />
-    <Content Include="Content\images\sample-pic2.jpg" />
-    <Content Include="Content\images\sample-pic3.jpg" />
-    <Content Include="Content\images\team.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -241,7 +258,9 @@
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -262,6 +281,8 @@
     <Content Include="Views\Programme\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Test.cshtml" />
+    <Content Include="Views\Refer\Index.cshtml" />
+    <Content Include="Views\Refer\Submitted.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

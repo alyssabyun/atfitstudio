@@ -8,9 +8,6 @@ C:\Development\Atfit\Atfit\bin\Microsoft.Web.Infrastructure.dll
 C:\Development\Atfit\Atfit\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Development\Atfit\Atfit\bin\Newtonsoft.Json.dll
 C:\Development\Atfit\Atfit\bin\PreMailer.Net.dll
-C:\Development\Atfit\Atfit\bin\System.Net.Http.Formatting.dll
-C:\Development\Atfit\Atfit\bin\System.Web.Http.dll
-C:\Development\Atfit\Atfit\bin\System.Web.Http.WebHost.dll
 C:\Development\Atfit\Atfit\bin\System.Web.Mvc.dll
 C:\Development\Atfit\Atfit\bin\System.Web.Optimization.dll
 C:\Development\Atfit\Atfit\bin\System.Web.Providers.dll
@@ -22,9 +19,6 @@ C:\Development\Atfit\Atfit\bin\WebGrease.dll
 C:\Development\Atfit\Atfit\bin\CsQuery.xml
 C:\Development\Atfit\Atfit\bin\EntityFramework.xml
 C:\Development\Atfit\Atfit\bin\Newtonsoft.Json.xml
-C:\Development\Atfit\Atfit\bin\System.Net.Http.Formatting.xml
-C:\Development\Atfit\Atfit\bin\System.Web.Http.xml
-C:\Development\Atfit\Atfit\bin\System.Web.Http.WebHost.xml
 C:\Development\Atfit\Atfit\bin\System.Web.Mvc.xml
 C:\Development\Atfit\Atfit\bin\System.Web.Razor.xml
 C:\Development\Atfit\Atfit\bin\System.Web.WebPages.xml
@@ -33,3 +27,5 @@ C:\Development\Atfit\Atfit\bin\System.Web.WebPages.Razor.xml
 C:\Development\Atfit\Atfit\obj\Release\Atfit.csprojResolveAssemblyReference.cache
 C:\Development\Atfit\Atfit\obj\Release\Atfit.dll
 C:\Development\Atfit\Atfit\obj\Release\Atfit.pdb
+C:\Development\Atfit\Atfit\bin\Elmah.dll
+C:\Development\Atfit\Atfit\bin\Elmah.Mvc.dll

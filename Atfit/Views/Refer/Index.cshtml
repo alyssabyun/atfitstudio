@@ -1,0 +1,58 @@
+﻿@model Atfit.Models.ReferFriendModel
+
+@{
+    ViewBag.Title = "Refer a Friend";
+}
+
+<div class="container">
+    <h2>Refer a Friend</h2>
+    <hr />
+
+    <p>
+        Do you know someone you think would love to join the @@FIT Family?
+    </p>
+    <p>
+        Enter their details in the form below, and @@FIT will contact them to start their well-being and fitness life.
+    </p>
+
+    <div class="phone-form">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.AntiSpam)
+            <div>
+                <span class="glyphicon glyphicon-user"></span> Friend's Name<br />
+                @Html.TextBoxFor(m => m.FriendName, new { @class = "form-control", placeholder = "Friend's Name" })
+                <div class="red-color">@Html.ValidationMessageFor(m => m.FriendName)</div>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-phone"></span> Their Phone Number<br />
+                @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", placeholder = "Their Phone Number" })
+                <div class="red-color">@Html.ValidationMessageFor(m => m.Phone)</div>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-user"></span> Your Name<br />
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Your Name" })
+                <div class="red-color">@Html.ValidationMessageFor(m => m.Name)</div>
+            </div>
+            <div>
+                <ul>
+                    @Html.ValidationSummary(true)
+                </ul>
+            </div>
+            <div class="send-button">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        }
+    </div>
+
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#refer-menu').addClass('active');
+        });
+    </script>
+}

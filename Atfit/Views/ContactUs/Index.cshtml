@@ -1,7 +1,7 @@
 ﻿@model Atfit.Models.EmailModel
 
 @{
-    ViewBag.Title = "ContactUs";
+    ViewBag.Title = "Contact Us";
 }
 
 <div class="container">
@@ -11,13 +11,19 @@
             <hr />
             <p>
                 <strong>Opening Hours:</strong><br />
-                Monday-Friday 5:30am - 8:30pm<br />
-                Saturday 6:00am - 3:00pm<br />
+                Monday-Friday 6:00am - 9:00pm<br />
+                Saturday 7:00am - 3:00pm<br />
                 Sunday By Appointment Only
             </p>
             <p>
-                <strong>Phone: </strong>021 545 003<br />
-                <strong>Address: </strong>A4 / 35 Greenmount Drive, East Tamaki, Auckland
+                <strong>Phone: </strong><br />
+                +64 9 909 6619<br />
+                +64 22 GO AT FIT<br />
+                <strong>Address: </strong><br />
+                A4 / 35 Greenmount Drive, East Tamaki, Auckland
+            </p>
+            <p>
+                <div id="fb-root"></div><div class="fb-like" data-href="http://www.facebook.com/atfitstudio" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
             </p>
             <div class="google-map">
                 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3189.1908336290467!2d174.90188279999998!3d-36.93360680000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4c81091086dd%3A0x2415c49ce2941ab4!2sa4%2F35+Greenmount+Dr!5e0!3m2!1sen!2snz!4v1403925942413"></iframe><br /><small><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3189.1908336290467!2d174.90188279999998!3d-36.93360680000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4c81091086dd%3A0x2415c49ce2941ab4!2sa4%2F35+Greenmount+Dr!5e0!3m2!1sen!2snz!4v1403925942413" style="color:#0000FF;text-align:left">View Larger Map</a></small>
@@ -72,5 +78,12 @@
         $(document).ready(function () {
             $('#contact-us-menu').addClass('active');
         });
+        (function (d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+         fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
     </script>
 }
